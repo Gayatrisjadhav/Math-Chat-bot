@@ -2,7 +2,7 @@
 🤖 Math-Chat-Bot
 An AI-powered general-purpose chatbot built with LLMs that can answer any natural language question, including solving math problems. It uses cutting-edge language models to simulate human-like conversations and provide intelligent, context-aware responses.
 
-# 🧠 What It Can Do
+## 🧠 What It Can Do
 -✅ Answer general knowledge questions
 
 -🔢 Solve mathematical problems (arithmetic, algebra, calculus, etc.)
@@ -13,13 +13,13 @@ An AI-powered general-purpose chatbot built with LLMs that can answer any natura
 
 -⚙️ Easily extendable to connect with APIs or external tools
 
-# 🚀 Getting Started
-## 1). Clone the Repository
+## 🚀 Getting Started
+### 1). Clone the Repository
 
 git clone https://github.com/Gayatrisjadhav/Math-Chat-bot.git
 cd Math-Chat-bot
 
-## 2). Create and Activate Virtual Environment (Recommended)
+### 2). Create and Activate Virtual Environment (Recommended)
 
 python -m venv .venv
 - Windows
@@ -27,7 +27,7 @@ python -m venv .venv
 - macOS/Linux
 source .venv/bin/activate
 
-## 3). Install Dependencies
+### 3). Install Dependencies
 
 If you're using uv, run:
 
@@ -41,7 +41,7 @@ Create a .env file in the root directory:
 OPENAI_API_KEY=your_openai_api_key_here
 You may also include keys for other providers like Groq, Gemini, etc., depending on how your bot is configured.
 
-# 💡 Usage
+## 💡 Usage
 Run the chatbot:
 
 
@@ -54,7 +54,7 @@ Bot: The capital of France is Paris.
 
 You: Solve x^2 + 3x + 2 = 0
 Bot: The solutions to the equation are x = -1 and x = -2.
-# 📁 Project Structure
+## 📁 Project Structure
 
 Math-Chat-bot/
 - ├── main.py              # Chatbot entry point
@@ -62,7 +62,7 @@ Math-Chat-bot/
 - ├── requirements.txt     # Project dependencies
 - ├── .env                 # Environment variables (not committed)
 - └── README.md            # Project documentation
-# 🧩 Built With
+## 🧩 Built With
 Python
 
 LangChain
